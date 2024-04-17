@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 /**
  * Using CompletableFuture as a Simple Future
  */
-class Section3 {
+class Section3Test {
 
     private static ExecutorService executorService;
 

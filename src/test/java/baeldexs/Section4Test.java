@@ -18,7 +18,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  * supplyAsync with Supplier
  * runAsync with Runnable
  */
-class Section4 {
+class Section4Test {
 
     @Test
     @DisplayName("CompletableFuture.supplyAsync method ")

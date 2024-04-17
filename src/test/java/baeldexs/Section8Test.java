@@ -3,11 +3,8 @@ package baeldexs;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import java.io.ByteArrayOutputStream;
-import java.io.PrintStream;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
-import java.util.function.Supplier;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -21,7 +18,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
  * CompletableFuture.allOf
  * CompletableFuture.join()
  */
-class Section8 {
+class Section8Test {
 
     @Test
     @DisplayName("CompletableFuture.allOf method ")

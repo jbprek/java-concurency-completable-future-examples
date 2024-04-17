@@ -20,7 +20,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  * - theAcceptBoth
  * Difference between thenCompose and thenApply
  */
-class Section6and7 {
+class Section6and7Test {
     public static ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
 
 

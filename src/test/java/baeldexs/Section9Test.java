@@ -6,7 +6,6 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.io.ByteArrayOutputStream;
-import java.io.IOException;
 import java.io.PrintStream;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
@@ -21,7 +20,7 @@ import static org.junit.jupiter.api.Assertions.*;
  * CompletableFuture.whenComplete()
  * In summary, handle() allows you to provide a fallback value or recover from an exception, whereas whenComplete() is used for side-effects or cleanup actions after the computation completes, regardless of whether it completes normally or exceptionally.
  */
-class Section9 {
+class Section9Test {
     public static ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
 
 
